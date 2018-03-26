@@ -61,30 +61,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BigDataDataSet.Designer.cs">
+    <Compile Include="Database\BigDataDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BigDataDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="com_chose.cs">
+    <Compile Include="Com\com_chose.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="com_chose.Designer.cs">
+    <Compile Include="Com\com_chose.Designer.cs">
       <DependentUpon>com_chose.cs</DependentUpon>
     </Compile>
-    <Compile Include="com_debug.cs">
+    <Compile Include="Com\com_debug.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="com_debug.Designer.cs">
+    <Compile Include="Com\com_debug.Designer.cs">
       <DependentUpon>com_debug.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatabaseMenu.cs">
+    <Compile Include="Database\DatabaseMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatabaseMenu.Designer.cs">
+    <Compile Include="Database\DatabaseMenu.Designer.cs">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="db.cs" />
+    <Compile Include="Database\db.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -104,16 +104,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DatabaseMenu.resx">
+    <EmbeddedResource Include="Database\DatabaseMenu.resx">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="com_chose.resx">
+    <EmbeddedResource Include="Com\com_chose.resx">
       <DependentUpon>com_chose.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="com_debug.resx">
+    <EmbeddedResource Include="Com\com_debug.resx">
       <DependentUpon>com_debug.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -132,15 +132,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="BigDataDataSet.xsc">
+    <None Include="Database\BigDataDataSet.xsc">
       <DependentUpon>BigDataDataSet.xsd</DependentUpon>
     </None>
-    <None Include="BigDataDataSet.xsd">
+    <None Include="Database\BigDataDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>BigDataDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="BigDataDataSet.xss">
+    <None Include="Database\BigDataDataSet.xss">
       <DependentUpon>BigDataDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -159,7 +159,7 @@
     <None Include="Resources\Логотип_НИТУ_МИСиС.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BigData.accdb">
+    <Content Include="Database\BigData.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
