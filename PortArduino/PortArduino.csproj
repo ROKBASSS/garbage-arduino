@@ -61,11 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\BigDataDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BigDataDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Com\com_chose.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,17 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Database\BigDataDataSet.xsc">
-      <DependentUpon>BigDataDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Database\BigDataDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BigDataDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Database\BigDataDataSet.xss">
-      <DependentUpon>BigDataDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,11 +141,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Логотип_НИТУ_МИСиС.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Database\BigData.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
