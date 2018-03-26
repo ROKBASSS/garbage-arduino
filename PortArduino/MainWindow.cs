@@ -1,28 +1,26 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace PortArduino
 {
     
     public partial class MainWindow : Form
     {
-        DB DATABASE = new DB();
         public MainWindow()
         {
             InitializeComponent();
         }
 
         
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            toolStripStatusLabel2.Text = DATABASE.Port;
+            
         }
-
-
-        public void Update_Port_Label_event(object sender, EventArgs e)
+        public void UpdateCom()
         {
-            MessageBox.Show("Com Updated!");
-            toolStripStatusLabel2.Text = DATABASE.Port;
+            
         }
 
         private void выбратьПортToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,6 +51,11 @@ namespace PortArduino
         {
             DatabaseMenu dbm = new DatabaseMenu();
             dbm.Show();
+        }
+
+        private void MainWindow_Activated(object sender, EventArgs e)
+        {
+            toolStripStatusLabel2.Text = Properties.Settings.Default.Port;
         }
     }
 }

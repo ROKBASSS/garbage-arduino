@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO.Ports;
 using System.Windows.Forms;
+using System.Configuration;
 
 
 namespace PortArduino
@@ -8,15 +9,14 @@ namespace PortArduino
     public partial class com_debug : Form
     {
         public DateTime datetime;
-        DB DATABASE = new DB();
 
         public com_debug()
         {
             InitializeComponent();
             
-            if (DATABASE.chprt == true)
+            if (Properties.Settings.Default.CheckPort== true)
             {
-                serialPort1.PortName = DATABASE.Port;
+                serialPort1.PortName = Properties.Settings.Default.Port;
                 serialPort1.BaudRate = 9600;
                 serialPort1.Open();
                 serialPort1.DataReceived += Port_DataRecieved;
@@ -25,7 +25,7 @@ namespace PortArduino
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            label2.Text = DATABASE.Port;
+            label2.Text = Properties.Settings.Default.Port;
         }
 
         private void button1_Click(object sender, EventArgs e)

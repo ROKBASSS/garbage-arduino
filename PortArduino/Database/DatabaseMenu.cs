@@ -15,7 +15,7 @@ namespace PortArduino
 
         private void DatabaseMenu_Load(object sender, EventArgs e)
         {
-            OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\BigData.accdb;Persist Security Info=True;User ID=admin;Jet OLEDB:Database Password=admin");
+            OleDbConnection connection = new OleDbConnection(Properties.Settings.Default.DatabaseAdress);
             connection.Open();
             string[] restrictions = new string[4];
             restrictions[3] = "Table";

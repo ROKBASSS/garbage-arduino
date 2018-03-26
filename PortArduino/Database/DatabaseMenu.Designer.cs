@@ -58,7 +58,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Name = "DatabaseMenu";
-            this.Text = "DatabaseMenu";
+            this.Text = "Просмотр базы данных";
             this.Load += new System.EventHandler(this.DatabaseMenu_Load);
             this.ResumeLayout(false);
 

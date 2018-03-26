@@ -79,7 +79,6 @@
     <Compile Include="Database\DatabaseMenu.Designer.cs">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database\db.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

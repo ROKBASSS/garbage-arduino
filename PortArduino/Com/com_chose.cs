@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO.Ports;
+using System.Configuration;
 using System.Windows.Forms;
 
 namespace PortArduino
@@ -7,11 +8,9 @@ namespace PortArduino
 
     public partial class com_chose : Form
     {
-        DB DATABASE = new DB();
         public com_chose()
         {
             InitializeComponent();
-            DATABASE.OnPortChange += new EventHandler(DATABASE_OnPortChange);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -48,32 +47,27 @@ namespace PortArduino
             
             try
             {
-                DATABASE.Port = Convert.ToString(dataGridView1.CurrentCell.Value);
-                Properties.Settings.Default.Port = DATABASE.Port;
+                Properties.Settings.Default.Port = Convert.ToString(dataGridView1.CurrentCell.Value);
                 Properties.Settings.Default.CheckPort = true;
                 Properties.Settings.Default.Save();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Вы не выбрали порт!\n"+ex);
-                DATABASE.chprt = false;
+                Properties.Settings.Default.CheckPort = false;
 
             }
-            if (DATABASE.chprt != false)
+            if (Properties.Settings.Default.CheckPort != false)
             {
                 this.Close();
             }
         }
-
-        void DATABASE_OnPortChange(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            DATABASE.Port = Convert.ToString(dataGridView1.CurrentCell.Value);
-            label2.Text = DATABASE.Port;
+            Properties.Settings.Default.Port = Convert.ToString(dataGridView1.CurrentCell.Value);
+            label2.Text = Properties.Settings.Default.Port;
+            MainWindow main = new MainWindow();
+            main.UpdateCom();
         }
 
 
