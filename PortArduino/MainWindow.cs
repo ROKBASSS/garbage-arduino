@@ -1,26 +1,13 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Configuration;
 
 namespace PortArduino
 {
-    
     public partial class MainWindow : Form
     {
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-        public void UpdateCom()
-        {
-            
         }
 
         private void выбратьПортToolStripMenuItem_Click(object sender, EventArgs e)
@@ -38,7 +25,7 @@ namespace PortArduino
         private void обАвтореToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Авторство закреплено за (с)\nФомин Антон Александрович\nСтудент группы ИТ-16-Д"
-                ,"Об авторе");
+                , "Об авторе");
         }
 
         private void прослушатьСПортаToolStripMenuItem_Click(object sender, EventArgs e)

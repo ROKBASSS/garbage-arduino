@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO.Ports;
 using System.Windows.Forms;
-using System.Configuration;
-
 
 namespace PortArduino
 {
@@ -13,8 +11,8 @@ namespace PortArduino
         public com_debug()
         {
             InitializeComponent();
-            
-            if (Properties.Settings.Default.CheckPort== true)
+
+            if (Properties.Settings.Default.CheckPort == true)
             {
                 serialPort1.PortName = Properties.Settings.Default.Port;
                 serialPort1.BaudRate = 9600;
@@ -32,7 +30,7 @@ namespace PortArduino
         {
             serialPort1.Write(textBox1.Text);
         }
-        
+
         private string writeread;
 
         public void Port_DataRecieved(object sender, SerialDataReceivedEventArgs e)
@@ -47,8 +45,7 @@ namespace PortArduino
         {
             datetime = DateTime.Now;
             time = datetime.Hour + ":" + datetime.Minute + ":" + datetime.Second;
-            dataGridView1.Rows.Add(dataGridView1[0, dataGridView1.Rows.Count-1].Value = time + " " + writeread);
-            
+            dataGridView1.Rows.Add(dataGridView1[0, dataGridView1.Rows.Count - 1].Value = time + " " + writeread);
         }
     }
 }

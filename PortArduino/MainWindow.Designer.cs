@@ -39,6 +39,8 @@
             this.выбратьПортToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.параметрыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.обАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -90,14 +92,14 @@
             // базаДанныхToolStripMenuItem
             // 
             this.базаДанныхToolStripMenuItem.Name = "базаДанныхToolStripMenuItem";
-            this.базаДанныхToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.базаДанныхToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.базаДанныхToolStripMenuItem.Text = "База данных";
             this.базаДанныхToolStripMenuItem.Click += new System.EventHandler(this.базаДанныхToolStripMenuItem_Click);
             // 
             // прослушатьСПортаToolStripMenuItem
             // 
             this.прослушатьСПортаToolStripMenuItem.Name = "прослушатьСПортаToolStripMenuItem";
-            this.прослушатьСПортаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.прослушатьСПортаToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.прослушатьСПортаToolStripMenuItem.Text = "Прослушать с порта";
             this.прослушатьСПортаToolStripMenuItem.Click += new System.EventHandler(this.прослушатьСПортаToolStripMenuItem_Click);
             // 
@@ -131,6 +133,30 @@
             this.обАвтореToolStripMenuItem.Text = "Об авторе";
             this.обАвтореToolStripMenuItem.Click += new System.EventHandler(this.обАвтореToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Desktop;
+            this.button1.FlatAppearance.BorderSize = 4;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(12, 39);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 37);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Управление мусоркой";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.Desktop;
+            this.button2.FlatAppearance.BorderSize = 4;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(188, 39);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 37);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Имитация работы";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,13 +164,14 @@
             this.BackgroundImage = global::PortArduino.Properties.Resources.SteamPunk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
             this.Text = "Главное окно";
             this.Activated += new System.EventHandler(this.MainWindow_Activated);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -167,5 +194,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripMenuItem прослушатьСПортаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem базаДанныхToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

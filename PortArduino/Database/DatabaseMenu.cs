@@ -3,7 +3,6 @@ using System.Data;
 using System.Data.OleDb;
 using System.Windows.Forms;
 
-
 namespace PortArduino
 {
     public partial class DatabaseMenu : Form
@@ -21,7 +20,7 @@ namespace PortArduino
             restrictions[3] = "Table";
             DataTable schemaTable = connection.GetSchema("Tables", restrictions);
             int Tablescount = schemaTable.Columns.Count;
-            int i = 0; 
+            int i = 0;
             foreach (DataRow row in schemaTable.Rows)
             {
                 string NameOfPage = row[2].ToString();
@@ -38,12 +37,7 @@ namespace PortArduino
                 tabControl1.TabPages[i].Controls.Add(dataGridViewNew);
 
                 i++;
-
             }
-
-
-            
-
         }
 
         private void button1_Click(object sender, EventArgs e)
