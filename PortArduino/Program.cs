@@ -3,7 +3,6 @@ using System.Windows.Forms;
 
 namespace PortArduino
 {
-    public delegate void MyDelegate(string data);
     static class Program
     {
         /// <summary>
