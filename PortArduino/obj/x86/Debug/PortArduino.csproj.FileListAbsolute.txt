@@ -1,0 +1,44 @@
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Form1.resources
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Properties.Resources.resources
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.GenerateResource.Cache
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\bin\Debug\PortArduino.exe
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\bin\Debug\PortArduino.pdb
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.exe
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
+c:\users\guest\documents\visual studio 2010\Projects\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Form2.resources
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\bin\Debug\PortArduino.exe
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\bin\Debug\PortArduino.pdb
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Form1.resources
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Form2.resources
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Properties.Resources.resources
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.GenerateResource.Cache
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.CoreCompileInputs.cache
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.exe
+\\172.16.20.2\share\100500\Фомин\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.pdb
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Properties.Resources.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.GenerateResource.Cache
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.exe
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.MainWindow.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.com_chose.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.com_debug.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Settings.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe.config
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\BigData.accdb
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.DatabaseMenu.resources
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csprojResolveAssemblyReference.cache
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe.config
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.pdb
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.DatabaseMenu.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.MainWindow.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.com_chose.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.com_debug.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Properties.Resources.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Settings.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.GenerateResource.cache
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csproj.CoreCompileInputs.cache
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.exe
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
