@@ -79,6 +79,12 @@
     <Compile Include="Database\DatabaseMenu.Designer.cs">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Garbage_control\garbage_cntrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garbage_control\garbage_cntrl.Designer.cs">
+      <DependentUpon>garbage_cntrl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -100,6 +106,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Database\DatabaseMenu.resx">
       <DependentUpon>DatabaseMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garbage_control\garbage_cntrl.resx">
+      <DependentUpon>garbage_cntrl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>

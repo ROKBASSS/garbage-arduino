@@ -26,7 +26,6 @@ D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\De
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.com_debug.resources
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Settings.resources
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe.config
-D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\BigData.accdb
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.DatabaseMenu.resources
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csprojResolveAssemblyReference.cache
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\bin\Debug\PortArduino.exe.config
@@ -43,3 +42,4 @@ C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortA
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.exe
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csprojResolveAssemblyReference.cache
+D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Garbage_control.garbage_cntrl.resources
