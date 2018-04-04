@@ -59,6 +59,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "DatabaseMenu";
             this.Text = "Просмотр базы данных";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DatabaseMenu_FormClosing);
             this.Load += new System.EventHandler(this.DatabaseMenu_Load);
             this.ResumeLayout(false);
 

@@ -19,5 +19,11 @@ namespace PortArduino
         {
             Properties.Settings.Default.Save();
         }
+
+        private void Settings_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+        }
     }
 }

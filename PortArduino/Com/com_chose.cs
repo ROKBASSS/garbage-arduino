@@ -57,5 +57,11 @@ namespace PortArduino
             Properties.Settings.Default.Port = Convert.ToString(dataGridView1.CurrentCell.Value);
             label2.Text = Properties.Settings.Default.Port;
         }
+
+        private void com_chose_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+        }
     }
 }

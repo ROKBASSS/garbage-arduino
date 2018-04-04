@@ -54,7 +54,7 @@
             this.label2.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PortArduino.Properties.Settings.Default, "Port", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.label2.Location = new System.Drawing.Point(104, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = global::PortArduino.Properties.Settings.Default.Port;
             // 
@@ -109,6 +109,7 @@
             this.Controls.Add(this.label1);
             this.Name = "com_debug";
             this.Text = "Дебаг COM порта";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.com_debug_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

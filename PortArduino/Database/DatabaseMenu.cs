@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.OleDb;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace PortArduino
 {
@@ -24,7 +25,6 @@ namespace PortArduino
             foreach (DataRow row in schemaTable.Rows)
             {
                 string NameOfPage = row[2].ToString();
-
                 TabPage tabPageNew = new TabPage(NameOfPage);
                 DataGridView dataGridViewNew = new DataGridView();
                 tabControl1.Controls.Add(tabPageNew);
@@ -35,7 +35,6 @@ namespace PortArduino
                 dataGridViewNew.DataSource = dataSetNew;
                 dataGridViewNew.DataMember = NameOfPage;
                 tabControl1.TabPages[i].Controls.Add(dataGridViewNew);
-
                 i++;
             }
         }
@@ -43,6 +42,12 @@ namespace PortArduino
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void DatabaseMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
         }
     }
 }

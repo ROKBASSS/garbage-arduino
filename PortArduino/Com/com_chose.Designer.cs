@@ -108,6 +108,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "com_chose";
             this.Text = "Выбор COM порта";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.com_chose_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

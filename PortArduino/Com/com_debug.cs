@@ -47,5 +47,11 @@ namespace PortArduino
             time = datetime.Hour + ":" + datetime.Minute + ":" + datetime.Second;
             dataGridView1.Rows.Add(dataGridView1[0, dataGridView1.Rows.Count - 1].Value = time + " " + writeread);
         }
+
+        private void com_debug_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+        }
     }
 }

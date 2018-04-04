@@ -149,6 +149,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Settings";
             this.Text = "Настройки";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Settings_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
