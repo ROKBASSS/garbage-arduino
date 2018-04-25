@@ -140,7 +140,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\Image1.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1200px-Arduino_Logo.svg.png" />
@@ -160,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6841728968_3cb7108cb5_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0T9pMN6Pv7I.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

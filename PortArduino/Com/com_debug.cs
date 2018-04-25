@@ -14,10 +14,17 @@ namespace PortArduino
 
             if (Properties.Settings.Default.CheckPort == true)
             {
-                serialPort1.PortName = Properties.Settings.Default.Port;
-                serialPort1.BaudRate = 9600;
-                serialPort1.Open();
-                serialPort1.DataReceived += Port_DataRecieved;
+                try
+                {
+                    serialPort1.PortName = Properties.Settings.Default.Port;
+                    serialPort1.BaudRate = 9600;
+                    serialPort1.Open();
+                    serialPort1.DataReceived += Port_DataRecieved;
+                }
+                catch
+                {
+                    MessageBox.Show("Порт " + serialPort1.PortName.ToString() + " недоступен");
+                }
             }
         }
 

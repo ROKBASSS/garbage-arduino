@@ -56,5 +56,30 @@ namespace PortArduino
             this.Hide();
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/ROKBASSS/garbage-arduino");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://sf.misis.ru/");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://sf.misis.ru/sveden/structure/faculties-and-departments/automation-and-IT/kafedra-avtomatizirovannyh-i-informacionnyh-sistem-upravleniya");
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.WaitCursor;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
+
     }
 }
