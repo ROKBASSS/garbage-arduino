@@ -12,7 +12,7 @@ namespace PortArduino.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "10.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -49,8 +49,7 @@ namespace PortArduino.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"C:\\Users\\Антон\\YandexDisk\\Дипломна" +
-            "я работа\\Database\\BigData.accdb\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\\BigData.mdb")]
         public string DatabaseAdress {
             get {
                 return ((string)(this["DatabaseAdress"]));
@@ -62,7 +61,7 @@ namespace PortArduino.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("null")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string DatabasePassword {
             get {
                 return ((string)(this["DatabasePassword"]));
@@ -74,7 +73,7 @@ namespace PortArduino.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("null")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string DatabaseLogin {
             get {
                 return ((string)(this["DatabaseLogin"]));
@@ -86,8 +85,7 @@ namespace PortArduino.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"C:\\Users\\Антон\\YandexDisk\\Дипломна" +
-            "я работа\\Database\\BigData.accdb\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("null")]
         public string BigDataString {
             get {
                 return ((string)(this["BigDataString"]));

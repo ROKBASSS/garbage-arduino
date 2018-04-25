@@ -43,3 +43,4 @@ C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortA
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.pdb
 C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.csprojResolveAssemblyReference.cache
 D:\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Garbage_control.garbage_cntrl.resources
+C:\Users\Антон\YandexDisk\Дипломная работа\PortArduino\PortArduino\obj\x86\Debug\PortArduino.Garbage_control.garbage_cntrl.resources

@@ -9,16 +9,16 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="DatabaseAdress" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="C:\Users\Антон\YandexDisk\Дипломная работа\Database\BigData.accdb"</Value>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\BigData.mdb</Value>
     </Setting>
     <Setting Name="DatabasePassword" Type="System.String" Scope="User">
-      <Value Profile="(Default)">null</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="DatabaseLogin" Type="System.String" Scope="User">
-      <Value Profile="(Default)">null</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="BigDataString" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="C:\Users\Антон\YandexDisk\Дипломная работа\Database\BigData.accdb"</Value>
+      <Value Profile="(Default)">null</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -11,32 +11,35 @@ namespace PortArduino
         public DatabaseMenu()
         {
             InitializeComponent();
+            
         }
 
         private void DatabaseMenu_Load(object sender, EventArgs e)
         {
             OleDbConnection connection = new OleDbConnection(Properties.Settings.Default.DatabaseAdress);
             connection.Open();
-            string[] restrictions = new string[4];
-            restrictions[3] = "Table";
-            DataTable schemaTable = connection.GetSchema("Tables", restrictions);
-            int Tablescount = schemaTable.Columns.Count;
-            int i = 0;
-            foreach (DataRow row in schemaTable.Rows)
-            {
-                string NameOfPage = row[2].ToString();
-                TabPage tabPageNew = new TabPage(NameOfPage);
-                DataGridView dataGridViewNew = new DataGridView();
-                tabControl1.Controls.Add(tabPageNew);
-                string sql = "SELECT * FROM " + NameOfPage;
-                DataSet dataSetNew = new DataSet();
-                OleDbDataAdapter oleDbDataAdapterNew = new OleDbDataAdapter(sql, connection);
-                oleDbDataAdapterNew.Fill(dataSetNew, NameOfPage);
-                dataGridViewNew.DataSource = dataSetNew;
-                dataGridViewNew.DataMember = NameOfPage;
-                tabControl1.TabPages[i].Controls.Add(dataGridViewNew);
-                i++;
-            }
+            string NameOfPage = "Adreses";
+            TabPage tabPageNew = new TabPage(NameOfPage);
+            DataGridView dataGridViewNew = new DataGridView();
+            tabControl1.Controls.Add(tabPageNew);
+            string sql = "SELECT Adreses.* FROM [Adreses]";
+            DataSet dataSetNew = new DataSet();
+            OleDbDataAdapter oleDbDataAdapterNew = new OleDbDataAdapter(sql, connection);
+            oleDbDataAdapterNew.Fill(dataSetNew, NameOfPage);
+            dataGridViewNew.DataSource = dataSetNew;
+            dataGridViewNew.DataMember = NameOfPage;
+            tabControl1.TabPages[0].Controls.Add(dataGridViewNew);
+            NameOfPage = "Status";
+            tabPageNew = new TabPage(NameOfPage);
+            tabControl1.Controls.Add(tabPageNew);
+            sql = "SELECT Status.* FROM [Status]";
+            dataSetNew = new DataSet();
+            oleDbDataAdapterNew = new OleDbDataAdapter(sql, connection);
+            oleDbDataAdapterNew.Fill(dataSetNew, NameOfPage);
+            dataGridViewNew.DataSource = dataSetNew;
+            dataGridViewNew.DataMember = NameOfPage;
+            tabControl1.TabPages[1].Controls.Add(dataGridViewNew);
+            connection.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

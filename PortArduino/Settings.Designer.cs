@@ -92,6 +92,7 @@
             this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PortArduino.Properties.Settings.Default, "DatabaseAdress", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBox1.Location = new System.Drawing.Point(16, 35);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(264, 20);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = global::PortArduino.Properties.Settings.Default.DatabaseAdress;
@@ -101,6 +102,7 @@
             this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PortArduino.Properties.Settings.Default, "DatabaseLogin", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBox2.Location = new System.Drawing.Point(61, 135);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(169, 20);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = global::PortArduino.Properties.Settings.Default.DatabaseLogin;
@@ -110,6 +112,7 @@
             this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PortArduino.Properties.Settings.Default, "DatabasePassword", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.textBox3.Location = new System.Drawing.Point(61, 162);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(169, 20);
             this.textBox3.TabIndex = 7;
             this.textBox3.Text = global::PortArduino.Properties.Settings.Default.DatabasePassword;
